@@ -1,5 +1,29 @@
+body{
+    background-color: #fef2f2;
+}
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    text-align: center;
+    margin: auto;
+    /* background-color: #f87171; */
 }
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #f87171;
+  }
+  button{
+    border-radius: 0.5rem;
+    color: black;
+    display: block;
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    background-color: #fecaca;
+  }
+
