@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 body{
     background-color: #fef2f2;
+    font-family: "Josefin Sans", sans-serif;
 }
 .container {
     display: flex;
@@ -13,6 +15,7 @@ body{
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
+    padding: 0.5rem;
   }
   th, td {
     background-color: #f87171;
@@ -25,5 +28,9 @@ table, th, td {
     margin: 1rem auto;
     padding: 0.5rem 4rem 0.5rem 4rem;
     background-color: #fecaca;
+    font-family: "Josefin Sans", sans-serif;
   }
 
+  .pad{
+    padding: 0.5rem;
+  }
