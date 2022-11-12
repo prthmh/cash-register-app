@@ -2,6 +2,7 @@
 body{
     background-color: #fef2f2;
     font-family: "Josefin Sans", sans-serif;
+    background-image: linear-gradient(to right, #F894A4,#F9D1B7);
 }
 .container {
     display: flex;
@@ -21,7 +22,7 @@ table, th, td {
     background-color: #f87171;
   }
   button{
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: black;
     display: block;
     max-width: 500px;
